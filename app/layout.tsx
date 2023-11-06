@@ -7,7 +7,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${monserrat.className} antialiased`}>{children}</body>
+      <body className={`${monserrat.className} antialiased`}>
+        {children}
+        <footer>
+          este es un footer 🌟
+        </footer>
+      </body>
     </html>
   );
 }
